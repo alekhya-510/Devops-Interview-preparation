@@ -60,3 +60,21 @@
 15. what is the dynamic auto scaling?
 16. What is the difference between Security groups and NACL?
 
+
+Terraform Most asked Interview Questions 💫
+
+1. Scenario: You need to provision a new AWS EC2 instance using Terraform. What steps would you take to accomplish this?
+2. Scenario: Your team is managing multiple environments (development, staging, production) using Terraform. How can you manage configurations for these environments effectively?
+3. Scenario: You want to avoid hardcoding sensitive information, such as AWS credentials, in your Terraform configuration. What strategies would you use?
+4. Scenario: You need to ensure that your infrastructure remains consistent and that changes are version-controlled. How would you implement this with Terraform?
+5. Scenario: You’ve applied changes to your infrastructure, but now you want to revert to the previous state. How can you achieve this with Terraform?
+6. Scenario: Your organization is looking to implement infrastructure as code (IaC) best practices with Terraform. What recommendations would you make?
+7. Scenario: You need to provision an S3 bucket with versioning enabled using Terraform. How would you accomplish this?
+8. Scenario: You want to manage multiple versions of your infrastructure. How can you use Terraform to handle versioning effectively?
+9. Scenario: You need to create a security group in AWS that only allows SSH access from a specific IP address. How can you implement this with Terraform?
+10. Scenario: You want to create a Lambda function in AWS using Terraform. What are the key components you need to define in your Terraform configuration?
+11. Scenario: Your organization has a policy of using only specific regions for resource deployment. How can you enforce this using Terraform?
+12. Scenario: You need to implement a CI/CD pipeline that includes Terraform for infrastructure deployment. What steps would you take to set this up?
+13. Scenario: You have existing resources managed outside of Terraform, and you want to import them into Terraform management. What is the process for doing this?
+14. Scenario: You need to manage secrets and sensitive data in your Terraform configurations securely. What strategies would you use?
+15. Scenario: You want to implement a modular approach for your Terraform configurations. How can you achieve this?
