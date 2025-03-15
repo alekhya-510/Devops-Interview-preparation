@@ -23,8 +23,8 @@
 20. How does an Elastic Load Balancer (ELB) distribute traffic?
 21. What is auto-scaling, and how does it work?
 22. Can you describe the different types of Load Balancers and provide examples?
-23. What is the maximum runtime for a Lambda function?
-24. What is the maximum memory size for a Lambda function?
+23. What is the maximum runtime for a Lambda function? **15 minutes**
+24. What is the maximum memory size for a Lambda function? **10GB**
 25. How can you increase the runtime for a Lambda function?
 26. What automations have you performed using Lambda in your project?
 27. Why did you choose Terraform over Boto3 for infrastructure provisioning?
@@ -34,8 +34,8 @@
 31. What is Groovy, and how is it used in Jenkins?
 32. Why do you use Groovy in Jenkins, and where do you save Jenkins files?
 33. What is Ansible, and what is its purpose?
-34. What language do you use in Ansible?
-35. Where do you run Terraform code, remotely or locally?
+34. What language do you use in Ansible? **YAML**
+35. Where do you run Terraform code, remotely or locally? 
 36. What is the purpose of access keys and secret keys in AWS?
 37. What are Terraform modules, and have you used any in your project?
 38. What environments have you set up for your project?
@@ -78,3 +78,32 @@ Terraform Most asked Interview Questions 💫
 13. Scenario: You have existing resources managed outside of Terraform, and you want to import them into Terraform management. What is the process for doing this?
 14. Scenario: You need to manage secrets and sensitive data in your Terraform configurations securely. What strategies would you use?
 15. Scenario: You want to implement a modular approach for your Terraform configurations. How can you achieve this?
+
+
+Recently, I had a Technical 1 round for a DevOps role, and I wanted to share some of the key questions I faced:
+
+🚀 Jenkins
+✅ How do you execute parallel jobs in Jenkins?
+✅ What if the GitHub plugin crashes in Jenkins? How will you handle this situation?
+
+🚀 CI/CD & Scripting
+✅ Explain CI/CD.
+✅ Write a Bash script to get the directory path from the user, check if it exists, and create it if it doesn’t.
+
+🚀 Kubernetes
+✅ The interviewer gave me a deployment.yaml file and asked me to explain it.
+
+🚀 Docker
+✅ How will you optimize a Dockerfile?
+✅ Difference between CMD and ENTRYPOINT?
+✅ Given:
+
+ENTRYPOINT ["echo"]
+CMD ["HELLO-WORLD"]
+
+What will be the output? Explain why.
+
+🚀 Terraform
+✅ What is terraform taint?
+✅ What is Terraform user data?
+✅ What is a Terraform workspace?
