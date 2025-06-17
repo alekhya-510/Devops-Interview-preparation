@@ -1,0 +1,12 @@
+docker run -dit \
+  --name ubuntu-container-linux-learning \
+  --hostname ubuntu-dev \
+  --restart unless-stopped \
+  --cpus="2" \
+  --memory="4g" \
+  --mount type=bind,source=/tmp/ubuntu,target=/data \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -p 2222:22 \
+  -p 8080:80 \
+  --env LANG=en_US.UTF-8 \
+  ubuntu:latest /bin/bash
