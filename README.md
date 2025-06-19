@@ -1,6 +1,11 @@
 # Devops-Interview-preparation
 
 
+✡️ https://lnkd.in/gjDYmueY
+✡ https://lnkd.in/gWVDvtGF
+✡ https://lnkd.in/gBfPxY78
+✡ https://lnkd.in/gRHFeeKY
+
 1. What is the role of IAM roles and policies?
    
 2. Can you explain the Terraform plan and its purpose?
