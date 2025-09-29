@@ -135,3 +135,66 @@ Two employees work in different shifts (10 AM–5 PM and 6 PM–2 AM). How do yo
 19. How do we connect services deployed on the cloud with those on-premises?
 20. How do we know the entire process executed that we have mentioned in Jenkins? What are the possible ways to know this?
 21. How can we configure GitHub in Jenkins using both Freestyle and Pipeline jobs?
+
+
+
+Here’s the list of DevOps Interview Questions I faced in my recent interviews
+1. Linux
+- How to check top running processors usage of memory and disk
+- How to check which ports associated with which processor
+- How to check number of users
+- What are the situations did you used shell scripting show me sample script by writing
+- How to find un used old files by time stamps
+2. Docker
+- Scenario given me to write a docker file if a developer develop code and put it on git then as a devops engineer how did you pack that code as image write a docker file for that to run that java application and explain me the steps
+- Volumes and bind mounts difference and use case
+- What is multi staging in docker or how did you reduce docker image size
+- If docker container is failing immediately what did you do and resolve
+- What are docker networking and what is docker architecture
+3. Kubernetes
+- What about crashloop backoff error and resolve
+- How pod to pod communication in k8s
+- K8s deployment strategies
+- What is ingress controller and difference between load balancer and ingress controller
+- How did you manage deployment fail
+- Helm use cases in your day to day tasks
+- How to communicate with pod out side the cluster
+- If node fails what did kubelet will do
+- Deployment vs stateful set
+- Is that possible to add own security rules to a pod in k8s
+- How two different name space pods or container communication
+- What if your application giving you 503 error
+- Write a script that ingress controller and multiple services load balancer for ingress controller
+- How did you get node logs
+4.Jenkins / CI-CD
+- What are the ways that you can run a job
+- Write me a sample jenkins file until build stages
+- What if job running slowly how to resolve
+- What about jenkins backup
+- How to integrate deployment process from code to deployment explained me steps
+- How to handle secrets and security things in jenkins ci process
+- What conflict did you face on ci CD process and resolve
+5.Prometheus&Grafana
+- How to store back up grafana
+- Some app monitoring how to create grafana ui
+- What if black and white boxe
+- How did prometheus work
+- If you want monitor a pod did you use prometheus Or cloud watch for pulling metrics
+- How to add different metric sources in prometheus
+6. Ansible & Terraform
+- Explain me about terraform module
+- What if state file is delete could you recovery
+- How to keep state file safe
+- How manually created infra to get in state file
+- Ansible idempotent what that mean
+- Write a yamle file playbook
+- Terraform sample infra structure script
+- How you can keep two developers cont changes at a time in terraform how
+6. AWS
+- Did you ever work with dns how did you configured
+- What are the steps you consider when you are launching cloud infra
+- Explain vpc and components
+- Difference sg,nacl,routing types
+-How did you define C or A or AAAA
+- How did you resolve if lb end point not giving application
+- What are security service did you used
