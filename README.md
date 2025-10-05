@@ -65,7 +65,7 @@
 33. What is Ansible, and what is its purpose?
 34. What language do you use in Ansible? **YAML**
 35. Where do you run Terraform code, remotely or locally? 
-36. What is the purpose of access keys and secret keys in AWS?
+36. What is the purpose of access keys and secret keys in AWS? To store confidential data such as secrets
 37. What are Terraform modules, and have you used any in your project?
 38. What environments have you set up for your project?
 39. Do you use the same AWS account for all environments?
